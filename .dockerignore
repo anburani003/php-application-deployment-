@@ -1,0 +1,20 @@
+# Ignore build context files
+.git
+.gitignore
+.dockerignore
+
+# Ignore development-specific files
+Dockerfile.dev
+
+# Ignore unnecessary directories
+node_modules/
+*.log
+logs/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.idea/
+.vscode/
